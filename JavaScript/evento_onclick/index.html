@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button type="button" onclick="changeText(this)">Login</button>
+        </header>
+        <main>
+            <div class="left">
+                <section class="card">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p class="plural">Plural: <em>ninjas</em></p>
+                        <button type="button" class="btn-yellow" onclick="liked(this)">13 likes</button>
+                    </div>
+                    <div class="meaning">
+                        <p class="means">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p class="plural">Plural: <em>ninjas</em></p>
+                        <button type="button" class="btn-yellow" onclick="liked(this)">37 likes</button>
+                    </div>
+                    <div class="meaning">
+                        <p class="means">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </section>
+            </div>
+            <div class="right">
+                <section class="card">
+                    <p class="definition">Dojonary is defined by <b>YOU</b></p>
+                    <button type="button" onclick="removeBtn(this)">Add Definition</button>
+                </section> 
+            </div>
+        </main>
+    </div>
+</body>
+</html>

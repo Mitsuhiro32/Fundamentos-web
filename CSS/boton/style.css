@@ -1,0 +1,31 @@
+button{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+#search{
+    margin-top: 50px;
+    color: #139C9E;
+    background-color: white;
+    border: 2px solid #139C9E;
+    border-radius: 20px;
+    padding: 3px 40px;
+}
+
+#plus{
+    color: white;
+    font-size: 20px;
+    background-color: #00D1B2;
+    border: 1px solid #00D1B2;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+#create{
+    color: white;
+    background-color: #2B78E4;
+    padding: 5px 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px  black;
+}

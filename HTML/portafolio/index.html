@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <h1>Portafolio</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#tecnologias">Tecnologías</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contáctame</a>
+        </nav>
+    </header>
+    <hr>
+    <h1 id="inicio">Renato Mitsuhiro Hirakawa Eiwa</h1>
+    <img src="./img/perfil.svg" alt="Foto de perfil" width="100">
+    <div>
+        <br>
+        <img src="./img/github.svg" alt="Logo de github" width="25">
+        <a href="https://github.com/Mitsuhiro32">GitHub</a>
+        <img src="./img/linkedin.svg" alt="Logo de LinkedIn" width="25">
+        <a href="https://www.linkedin.com/in/renato-mitsuhiro-hirakawa-eiwa/">LinkedIn</a>
+        <img src="./img/mail.svg" alt="Logo de correo" width="25">
+        <a href="mailto:mitsueiwa333@gmail.com">Correo</a>
+    </div>
+    <h2 id="tecnologias">Tecnologías</h2>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Front-End</th>
+                <th>PHP</th>
+                <th>JavaScript</th>
+                <th>Base de Datos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Laravel</td>
+                <td>React</td>
+                <td>PostgreSQL</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td></td>
+                <td>Node.js</td>
+                <td>MySQL</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td></td>
+                <td>ExpressJS</td>
+                <td>MongoDB</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="proyectos">Proyectos</h2>
+    <img src="./img/code.svg" alt="Imagen de Código" width="30">
+    <ul>
+        <li>Sistema HIS - Fundación Lazos del Sur</li>
+        <li>Sistema de Control de Estacionamientos</li>
+        <li>Calculadora Basal</li>
+    </ul>
+    <fieldset>
+        <h2 id="contacto">Contáctame</h2>
+        <form action="/">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="correo">Correo: </label>
+            <input type="email" name="correo" id="correo">
+            <div>
+                <br>
+                <label for="mensaje">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+            </div>
+            <br>
+            <button type="button">Enviar Mensaje</button>
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    font-family: cursive;
+}
+
+.card{
+    width: 800px;
+    height: 400px;
+    border: 3px solid gainsboro;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient( #17A2B8 25%, transparent 20%);
+    box-shadow: 5px 5px 10px black;
+}
+
+.profile{
+    margin-left: 40px;
+    position: absolute;
+}
+
+.location, .edit{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin: 5px;
+}
+
+h2{
+    display: inline;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+a{
+    margin-left: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+img.user{
+    max-height: 100px;
+}
+
+img.gps, img.gear{
+    margin: 5px;
+    max-height: 20px;
+}
