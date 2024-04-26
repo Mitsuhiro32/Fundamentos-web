@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+header{ 
+    background-color: #9FC5F8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.head-content{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-content h1{
+    font-size: 40px;
+    color: white;
+
+}
+
+.head-content nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 25px;
+}
+
+.head-content nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head h2{
+    font-size: 30px;
+}
+
+.showTemp{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.showTemp select{
+    font-size: 15px;
+    padding: 5px;
+}
+
+hr{
+    border: 1.5px solid;
+}
+
+.weather{
+    display: flex;
+    overflow: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.card-weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEEEEE;
+    padding: 20px;
+    gap: 10px;
+}
+
+.card-weather h3{
+    font-size: 25px;
+}
+
+.card-weather img{
+    border-radius: 50%;
+    max-height: 150px;
+}
+
+.card-weather .temperature{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.temperature .highTemp{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.temperature .lowTemp{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cookies{
+    border: 2px solid;
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cookies img{
+    margin-left: 20px;
+}
+
+.cookies .content{
+    margin: 20px 0;
+    width: auto;
+}
+
+.content p{
+    margin: 0;
+}
+
+.cookies button{
+    background-color: #9FC5F8;
+    border: 2px solid;
+    padding: 5px 15px;
+    font-size: 13px;
+    margin-right: 20px;
+    box-shadow: 4px 4px black;
+    width: 100px;
+}
