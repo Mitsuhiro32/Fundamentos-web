@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">0</div>
+        <div class="row">
+            <button type="button" onclick="press(7);">7</button>
+            <button type="button" onclick="press(8);">8</button>
+            <button type="button" onclick="press(9);">9</button>
+            <button type="button" class="operator" onclick="setOP('/');">&divide;</button>
+        </div>
+        <div class="row">
+            <button type="button" onclick="press(4);">4</button>
+            <button type="button" onclick="press(5);">5</button>
+            <button type="button" onclick="press(6);">6</button>
+            <button type="button" class="operator" onclick="setOP('*');">&times;</button>
+        </div>
+        <div class="row">
+            <button type="button" onclick="press(1);">1</button>
+            <button type="button" onclick="press(2);">2</button>
+            <button type="button" onclick="press(3);">3</button>
+            <button type="button" class="operator" onclick="setOP('-');">&minus;</button>
+        </div>
+        <div class="row">
+            <button type="button" onclick="clr();">C</button>
+            <button type="button" onclick="press(0);">0</button>
+            <button type="button" onclick="press('.');">.</button>
+            <button type="button" class="operator" onclick="setOP('+');">&plus;</button>
+        </div>
+        <div class="row">
+            <button type="button" id="equals" onclick="calculate()">&equals;</button>
+        </div>
+    </div>
+</body>
+</html>
